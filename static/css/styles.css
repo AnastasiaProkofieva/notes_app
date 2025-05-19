@@ -1,0 +1,13 @@
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div.container block {
+    margin: 0
+}
+
+h2 {
+    text-align: center;
+}
