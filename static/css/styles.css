@@ -1,11 +1,14 @@
-div.container {
+.container-inner {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-div.container block {
-    margin: 0
+.container block {
+    margin: 0;
+
 }
 
 h2 {
