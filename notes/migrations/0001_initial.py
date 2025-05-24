@@ -25,7 +25,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=50)),
                 ('text', models.CharField(max_length=200)),
-                ('reminder', models.DateField()),
+                ('reminder', models.DateTimeField()),
                 ('category', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='notes', to='notes.category')),
             ],
         ),

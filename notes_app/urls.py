@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from notes.views import NoteListView, NoteCreateView, NoteDetailView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('notes.urls')),
